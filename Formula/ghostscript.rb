@@ -1,8 +1,8 @@
 class Ghostscript < Formula
   desc "Interpreter for PostScript and PDF"
   homepage "https://www.ghostscript.com/"
-  url "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs927/ghostpdl-9.27.tar.gz"
-  sha256 "9e089546624296bf4aca14c2adcb0762b323ca77ae14176d21127b749baac8d6"
+  url "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs923/ghostpdl-9.23.tar.gz"
+  sha256 "3ad1c9eab5ea40fc71464577bad564c8ba1a006af1a2e0a79a160f39b4ba799c"
 
   head do
     # Can't use shallow clone. Doing so = fatal errors.
